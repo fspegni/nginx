@@ -1,6 +1,6 @@
-FROM nginx:1.9
+FROM nginx:stable-alpine
 
-MAINTAINER Antonio Esposito "kobe@member.fsf.org"
+MAINTAINER Francesco Spegni "francesco.spegni@gmail.com"
 
 RUN rm -rf /etc/nginx/conf.d/*
 
